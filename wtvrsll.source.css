@@ -444,3 +444,11 @@
 .container__2637a {
     margin-bottom: 12px;
 }
+
+.subtext__339d0 > p > span {
+	font-family: var(--font-primary) !important;
+}
+
+.visual-refresh .total__260e1, .visual-refresh .users__260e1 {
+	font-variant-numeric: normal;
+}
