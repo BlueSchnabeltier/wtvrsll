@@ -18,7 +18,7 @@ Basically, it keeps some of the new UI while bringing back the good parts of the
 #### For Vencord:  
 **Method 1 (Online):**  
 1. Go to Vencord settings > Themes > Online Themes.  
-2. Paste the raw CSS URL (e.g., `https://raw.githubusercontent.com/BlueSchnabeltier/wtvrsll/main/wtvrsll.theme.css`) and hit "Add Theme".  
+2. Paste the raw CSS URL (e.g., `https://raw.githubusercontent.com/BlueSchnabeltier/wtvrsll/main/wtvrsll.theme.css`)
 
 **Method 2 (Offline):**  
 1. Download the theme file (`wtvrsll.theme.css`).  
