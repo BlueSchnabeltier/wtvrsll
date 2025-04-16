@@ -7,6 +7,7 @@ Discord recently forced everyone to use their "visual refresh" UI, and let's be 
 - Generally improving usability **without changing too much**  
 
 Basically, it keeps some of the new UI while bringing back the good parts of the old one.  
+Want to see the difference? Check out the [Before & After comparison](https://imgsli.com/MzcxMTIz) to see how much better it looks!
 #
 ### Installation
 
