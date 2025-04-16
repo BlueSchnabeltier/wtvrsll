@@ -419,7 +419,8 @@
 .winButtonsWithDivider_c38106:before, 
 .recentsIcon_c99c29, 
 .sidebar_c48ade::after, 
-.trailing_c38106 > a { display: none; }
+.channelAppLauncher_e6e74f,
+.trailing_c38106 > a { display: none !important; }
 
 .guilds_c48ade {
     height: 100%;
