@@ -452,3 +452,8 @@
 .visual-refresh .total__260e1, .visual-refresh .users__260e1 {
 	font-variant-numeric: normal;
 }
+
+.buttons__74017 > div,
+.buttons__74017 > button {
+	margin-left: -4px !important;
+}
