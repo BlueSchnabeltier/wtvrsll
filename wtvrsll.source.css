@@ -438,11 +438,11 @@
 
 .tutorialContainer__1f388 {
     margin-top: 12px;
-    margin-bottom: -8px;
+	margin-bottom: -8px;
 }
 
 .container__2637a {
-    margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .subtext__339d0 > p > span {
@@ -456,4 +456,13 @@
 .buttons__74017 > div,
 .buttons__74017 > button {
 	margin-left: -4px !important;
+}
+
+span[class*="timestampInline_"] time::before {
+  content: attr(aria-label);
+  font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+  font-size: 0px !important;
 }
