@@ -449,6 +449,10 @@ div:not([class]):has([class*="listItem__"]) {
 	margin-bottom: 12px;
 }
 
+.privateChannels__35e86 {
+	margin-bottom: 8px;
+}
+
 .subtext__339d0 > p > span {
 	font-family: var(--font-primary) !important;
 }
