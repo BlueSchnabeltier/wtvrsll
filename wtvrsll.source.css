@@ -474,15 +474,3 @@ span[class*="timestampInline_"] {
 .visual-refresh .callContainer_cb9592 {
 	border-top: none;
 }
-
-.scrollableContainer__74017 {
-  all: unset !important;
-  background-color: red !important;
-  color: red !important;
-  border: none !important;
-  box-shadow: none !important;
-  text-shadow: none !important;
-  outline: none !important;
-  fill: red !important;
-  stroke: red !important;
-}
