@@ -441,6 +441,10 @@
 	margin-bottom: -8px;
 }
 
+div:not([class]):has([class*="listItem__"]) {
+	margin-bottom: 0px !important;
+}
+
 .container__2637a {
 	margin-bottom: 12px;
 }
@@ -459,10 +463,10 @@
 }
 
 span[class*="timestampInline_"] time::before {
-  content: attr(aria-label);
-  font-size: 12px;
+	content: attr(aria-label);
+	font-size: 12px;
 }
 
 span[class*="timestampInline_"] {
-  font-size: 0px !important;
+	font-size: 0px !important;
 }
