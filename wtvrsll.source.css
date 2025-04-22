@@ -4,6 +4,7 @@
     --blob-scale: 48;
     --folder-blob-scale: var(--blob-scale);
     --custom-guild-list-padding: calc((72px - var(--guildbar-avatar-size)) / 2);
+    --custom-channel-textarea-text-area-height: 44px;
 }
 
 .visual-refresh nav[class*="guilds_"] {
@@ -135,53 +136,39 @@
         border: 1px solid var(--border-normal);
         border-radius: 10px;
     }
-	
-	.users__260e1,
-	.total__260e1 {
-		display: flex;
-		justify-content: center;
-		font-variant-numeric: normal;
-	}
-
-	.users__260e1 {
-		padding: 0 7px 0 3px;
-		margin-left: 1px;
-	}
-
-	.total__260e1 {
-		padding: 1px 3px 0 0;
-	}
-	
-	.wrapper__260e1 { border: none; }
-    .callContainer_cb9592 { border-top: none; }
-}
-
-.channelTextArea_f75fb0 {
-    margin: 0 6px 20px;
     
-    .attachWrapper__0923f, .inner__74017 {
+    .users__260e1,
+    .total__260e1 {
         display: flex;
-        align-items: center;
+        justify-content: center;
+        font-variant-numeric: normal;
     }
 
-    .inner__74017 {
-        margin: -6px 10px -6px 0;
-        --custom-channel-textarea-text-area-height: 56px;
-        --custom-channel-textarea-text-area-max-height: var(--custom-channel-textarea-text-area-height);
+    .users__260e1 {
+        padding: 0 7px 0 3px;
+        margin-left: 1px;
     }
 
-    .slateTextArea_ec4baf { margin-left: 4px; }
-    .scrollableContainer__74017 { overflow: hidden; min-height: 0; }
-    .textArea__74017 { height: auto !important; min-height: 0; }
-    .buttons__74017 > div, .buttons__74017 > button { margin-left: -4px !important; }
+    .total__260e1 {
+        padding: 1px 3px 0 0;
+    }
+	
+	.attachButton__0923f {
+		padding-left: 21px;
+		padding-right: 21px;
+	}
+    
+    .wrapper__260e1 { border: none; }
+    .callContainer_cb9592 { border-top: none; }
+	.slateTextArea_ec4baf { margin-left: 0; }
 }
 
+.channelTextArea_f75fb0 { margin-bottom: 20px; }
 .typing_b88801 { transform: translateY(3px); }
 .unreadMentionsIndicatorBottom_ef3116 { transform: translateY(-10px); }
 .title_c38106 { margin-left: 12px; justify-content: left; }
 
 .winButtonsWithDivider_c38106:before,
-.recentsIcon_c99c29,
 .sidebar_c48ade::after,
 .guildSeparator__252b6,
 .trailing_c38106 > a { display: none !important; }
@@ -203,7 +190,7 @@ div:not([class]):has([class*="listItem__"]) { margin-bottom: 0 !important; }
 .container__2637a { margin-bottom: 12px; }
 .privateChannels__35e86 { margin-bottom: 8px; }
 
-.subtext__339d0 > p > span { font-family: var(--font-primary) !important; }
+
 
 span[class*="timestampInline_"] {
     font-size: 0 !important;
@@ -213,4 +200,6 @@ span[class*="timestampInline_"] {
     }
 }
 
+.subtext__339d0 > p > span { font-family: var(--font-primary) !important; }
 .form_f75fb0 { padding-top: 8px; }
+.innerDisabled__74017 { padding-left: 4px; }
