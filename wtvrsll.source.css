@@ -136,19 +136,20 @@
         border-radius: 10px;
     }
 	
-	.users__260e1 {
-		margin-left: -2px;
+	.users__260e1,
+	.total__260e1 {
+		display: flex;
 		justify-content: center;
 		font-variant-numeric: normal;
 	}
-	
+
+	.users__260e1 {
+		padding: 0 7px 0 5px;
+		margin-left: 1px;
+	}
+
 	.total__260e1 {
-		margin: 0;
-		padding: 0;
-		padding-top: 1px;
-		padding-right: 3px;
-		justify-content: center;
-		font-variant-numeric: normal;
+		padding: 1px 5px 0 0;
 	}
 	
 	.wrapper__260e1 { border: none; }
