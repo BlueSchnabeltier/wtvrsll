@@ -164,7 +164,7 @@
 }
 
 .channelTextArea_f75fb0 { margin-bottom: 20px; }
-.typing_b88801 { transform: translateY(3px); }
+.typing_b88801 { height: 18px }
 .unreadMentionsIndicatorBottom_ef3116 { transform: translateY(-10px); }
 .title_c38106 { margin-left: 12px; justify-content: left; }
 
@@ -202,3 +202,4 @@ span[class*="timestampInline_"] {
 
 .subtext__339d0 > p > span { font-family: var(--font-primary) !important; }
 .form_f75fb0 { padding-top: 8px; }
+.dots__5ad89 { width: 25px; }
