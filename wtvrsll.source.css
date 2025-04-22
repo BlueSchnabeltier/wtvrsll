@@ -135,9 +135,19 @@
         border: 1px solid var(--border-normal);
         border-radius: 10px;
     }
-
-    .users__260e1, .total__260e1 { font-variant-numeric: normal; }
-	.users__260e1 { text-indent: 1px; }
+	
+	.users__260e1 {
+		text-indent: 1px;
+		font-variant-numeric: normal;
+	}
+	
+	.total__260e1 {
+		padding-top: 1px;
+		padding-right: 5px;
+		font-variant-numeric: normal;
+	}
+	
+	.wrapper__260e1 { border: none; }
     .callContainer_cb9592 { border-top: none; }
 }
 
