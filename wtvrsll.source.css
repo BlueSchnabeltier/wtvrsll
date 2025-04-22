@@ -127,10 +127,15 @@
         width: calc(100% - var(--space-xs) * 2 - var(--custom-guild-list-width));
     }
 
-    .form_f75fb0, .sidebarListRounded_c48ade {
+    .form_f75fb0, .sidebarListRounded_c48ade, .notice__6e2b9 {
         margin-top: 0;
         border-top-left-radius: 0;
     }
+	
+	.notice__6e2b9 {
+		border-top: 1px solid var(--border-normal);
+		border-top-left-radius: 0;
+	}
 
     .guildIcon__85643 {
         border: 1px solid var(--border-normal);
@@ -161,11 +166,11 @@
     .wrapper__260e1 { border: none; }
     .callContainer_cb9592 { border-top: none; }
 	.slateTextArea_ec4baf { margin-left: 0; }
+	.itemsContainer_ef3116 > div > div:nth-child(3) { margin: 0; }
 }
 
 .channelTextArea_f75fb0 { margin-bottom: 20px; }
 .typing_b88801 { height: 18px }
-.unreadMentionsIndicatorBottom_ef3116 { transform: translateY(-10px); }
 .title_c38106 { margin-left: 12px; justify-content: left; }
 
 .winButtonsWithDivider_c38106:before,
@@ -184,13 +189,12 @@
 
 .tutorialContainer__1f388 {
     margin-top: 12px;
+	margin-bottom: 8px;
 }
 
 div:not([class]):has([class*="listItem__"]) { margin-bottom: 0 !important; }
 .container__2637a { margin-bottom: 12px; }
 .privateChannels__35e86 { margin-bottom: 8px; }
-
-
 
 span[class*="timestampInline_"] {
     font-size: 0 !important;
@@ -203,3 +207,4 @@ span[class*="timestampInline_"] {
 .subtext__339d0 > p > span { font-family: var(--font-primary) !important; }
 .form_f75fb0 { padding-top: 8px; }
 .dots__5ad89 { width: 25px; }
+.bar__7aaec { box-shadow: none; }
