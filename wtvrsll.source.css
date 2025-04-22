@@ -137,13 +137,17 @@
     }
 	
 	.users__260e1 {
-		text-indent: 1px;
+		margin-left: -2px;
+		justify-content: center;
 		font-variant-numeric: normal;
 	}
 	
 	.total__260e1 {
+		margin: 0;
+		padding: 0;
 		padding-top: 1px;
-		padding-right: 5px;
+		padding-right: 3px;
+		justify-content: center;
 		font-variant-numeric: normal;
 	}
 	
