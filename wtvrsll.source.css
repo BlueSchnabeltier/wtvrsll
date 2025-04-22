@@ -181,7 +181,6 @@
 
 .tutorialContainer__1f388 {
     margin-top: 12px;
-    margin-bottom: -8px;
 }
 
 div:not([class]):has([class*="listItem__"]) { margin-bottom: 0 !important; }
