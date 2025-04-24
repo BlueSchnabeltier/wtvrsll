@@ -158,11 +158,13 @@
         padding: 1px 3px 0 0;
     }
 	
-	.attachButton__0923f {
-		padding-left: 21px;
-		padding-right: 21px;
+	.wrapper__44df5 {
+		height: 56px;
+		padding: 0;
+		margin: 0 0 8px 0;
 	}
-    
+	
+	.scroller_ef3116 { padding-bottom: 4px; }
     .wrapper__260e1 { border: none; }
     .callContainer_cb9592 { border-top: none; }
 	.slateTextArea_ec4baf { margin-left: 0; }
@@ -208,3 +210,10 @@ span[class*="timestampInline_"] {
 .form_f75fb0 { padding-top: 8px; }
 .dots__5ad89 { width: 25px; }
 .bar__7aaec { box-shadow: none; }
+.banner__183e8 { padding: 8px 16px 8px 16px}
+.text__183e8 { margin-left: 14px; }
+
+#guild-list-unread-dms {
+	margin-top: -16px;
+	margin-bottom: 8px;
+}
