@@ -1,28 +1,64 @@
-## wtvrsll – What The Visual Refresh Should Look Like
-Discord recently forced everyone to use their "visual refresh" UI, and let's be honest—it's horrible. This theme aims to fix that by:  
-- Reverting icons back to **round** instead of the ugly rounded squares  
-- **Uncluttering the top bar** and **uncentering the title** (because why was it centered??)  
-- Fixing the **profile panel** to be less awkward  
-- Making the **chat input box slimmer** and less bulky  
-- Generally improving usability **without changing too much**  
+# wtvrsll – What The Visual Refresh Should Look Like
 
-Basically, it keeps some of the new UI while bringing back the good parts of the old one.  
-#
-### Installation
+**Discord theme that fixes the visual refresh disaster - bringing back usability without sacrificing modern features**
 
-#### For BetterDiscord:
-1. Download the theme file (`wtvrsll.theme.css`).  
-2. Place it in `BetterDiscord/themes/`.  
-3. Enable it in BetterDiscord's settings.  
+## 🎯 What This Theme Fixes
 
-#### For Vencord:  
-**Method 1 (Online):**  
-1. Go to Vencord settings > Themes > Online Themes.  
-2. Paste the raw CSS URL (e.g., `https://raw.githubusercontent.com/BlueSchnabeltier/wtvrsll/main/wtvrsll.theme.css`)
+Discord's forced "visual refresh" left many users frustrated with poor design choices. **wtvrsll** addresses these issues systematically:
 
-**Method 2 (Offline):**  
-1. Download the theme file (`wtvrsll.theme.css`).  
-2. Place it in `Vencord/themes/`.  
-3. Restart Discord or reload Vencord (`Ctrl + R`).  
+### **🔄 Icon Restoration**
+- **Round icons return** - eliminates the awkward rounded square design
+- Consistent visual language throughout the interface
 
-Hope this makes your Discord usable again! Let me know if there is anything you want me to add/fix by creating an issue!
+### **🧹 Interface Cleanup** 
+- **Decluttered top bar** with improved spacing and organization
+- **Left-aligned titles** - because centered titles made no sense
+- **Streamlined profile panel** for less visual awkwardness
+
+### **💬 Chat Improvements**
+- **Slimmer input box** - reduces bulk while maintaining functionality
+- Enhanced readability and focus on conversations
+
+### **⚡ Smart Modernization**
+- Preserves beneficial new features while restoring proven UI elements
+- **Usability-first approach** without unnecessary visual changes
+
+*The result: A Discord interface that actually makes sense.*
+
+## 📦 Installation Guide
+
+### **BetterDiscord Setup**
+
+1. **Download** the theme file: [`wtvrsll.theme.css`](./wtvrsll.theme.css)
+2. **Navigate** to your BetterDiscord themes folder: `BetterDiscord/themes/`
+3. **Place** the downloaded file in the themes directory
+4. **Enable** the theme in BetterDiscord settings
+
+### **Vencord Integration**
+
+#### **Method 1: Online Installation (Recommended)**
+1. Open **Vencord Settings** → **Themes** → **Online Themes**
+2. **Paste the raw CSS URL:**
+   ```
+   https://raw.githubusercontent.com/BlueSchnabeltier/wtvrsll/main/wtvrsll.theme.css
+   ```
+3. **Apply** and enjoy your improved Discord experience
+
+#### **Method 2: Local Installation**
+1. **Download** [`wtvrsll.theme.css`](./wtvrsll.theme.css)
+2. **Place** in your `Vencord/themes/` directory
+3. **Restart Discord** or reload with `Ctrl + R`
+
+
+## 🔧 Compatibility
+
+- ✅ **BetterDiscord** - Full support
+- ✅ **Vencord** - Complete integration
+- ✅ **Discord Desktop** - Optimized for desktop client
+- ✅ **Regular Updates** - Maintained for Discord changes
+
+## 🐛 Support & Feedback
+
+Experiencing issues or have suggestions for improvements? 
+
+**[Create an Issue](../../issues)** - I'm actively maintaining this theme and welcome feedback!
